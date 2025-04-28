@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-app-2
+    - url: http://localhost:30080
+      title: Second React App
+      icon: dashboard
+  annotations:
+    github.com/project-slug: daniel-wakefield-ro/react-app-2
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: react-app-2
+    backstage.io/kubernetes-namespace: default
+    backstage.io/kubernetes-service-name: react-app-2-service
+    backstage.io/kubernetes-label-selector: 'app=react-app-2'
+spec:
+  type: website
+  lifecycle: development
+  owner: user:daniel-wakefield-ro
+  dependsOn:
+    - component:default/NewNewNodeService
