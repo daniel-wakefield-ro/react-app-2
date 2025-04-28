@@ -10,7 +10,7 @@ metadata:
     github.com/project-slug: daniel-wakefield-ro/react-app-2
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: react-app-2
-    backstage.io/kubernetes-namespace: default
+    backstage.io/kubernetes-namespace: dan-testing
     backstage.io/kubernetes-service-name: react-app-2-service
     backstage.io/kubernetes-label-selector: 'app=react-app-2'
 spec:

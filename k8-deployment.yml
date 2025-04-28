@@ -46,7 +46,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /
+      - path: /react-app-2
         pathType: Prefix
         backend:
           service:
