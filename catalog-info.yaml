@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: react-app-2
+  links:
     - url: http://localhost:30080
       title: Second React App
       icon: dashboard
